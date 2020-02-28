@@ -1,6 +1,6 @@
 import React from "react";
-
-export default function() {
-  return <div>hello form Home page</div>;
+import Hero from "../components/Hero"
+export default function Home() {
+  return <Hero />;
 }
 
